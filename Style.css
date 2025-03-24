@@ -1,3 +1,4 @@
+
 /* Body ka background aur text styling */
 body {
     font-family: Arial, sans-serif;
@@ -39,6 +40,50 @@ ul li a {
     background-color: #007bff;
     padding: 8px 15px;
     border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: #0056b3;
+}
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Heading Styling */
+h1, h2 {
+    color: #007bff;
+}
+
+/* Image Styling */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Social Media Links Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 ul li a:hover {
