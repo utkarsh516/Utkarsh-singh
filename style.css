@@ -1,4 +1,20 @@
-
+#top-languages {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+#top-languages h2 {
+    color: #333;
+    text-align: center;
+}
+#top-languages ol {
+    padding-left: 20px;
+}
+#top-languages li {
+    font-size: 18px;
+    margin: 10px 0;
+}
 /* Body ka background aur text styling */
 body {
     font-family: Arial, sans-serif;
