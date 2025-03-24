@@ -1,0 +1,46 @@
+/* Body ka background aur text styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading style */
+h1 {
+    color: #007bff;
+}
+
+/* Profile photo styling */
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #007bff;
+}
+
+/* Social media links styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: #0056b3;
+}
